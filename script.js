@@ -9,7 +9,6 @@ const redGems = [
   "Shield Crush of the Chieftain",
   "Smite of Divine Judgement",
   "Holy Flame Totem of Ire",
-  "Leap Slam of Groundbreaking",
   "Absolution of Inspiring",
   "Earthshatter of Fragility",
   "Earthshatter of Prominence",
@@ -209,3 +208,4 @@ function rollGems() {
   document.getElementById("greenGem").innerText = "🟢 Green: " + green.join(", ");
   document.getElementById("blueGem").innerText = "🔵 Blue: " + blue.join(", ");
 }
+
